@@ -1,0 +1,8 @@
+[2020-04-26 11:24:55] [INFO] [common.TestngRetry.<clinit>(TestngRetry.java:19)] RetryCount=0
+[2020-04-26 11:24:55] [INFO] [common.TestngRetry.<clinit>(TestngRetry.java:20)] SourceDir=src/test/java/test
+[2020-04-26 11:24:55] [INFO] [common.TestngRetry.<clinit>(TestngRetry.java:21)] SourceEncoding=UTF-8
+[2020-04-26 11:24:55] [INFO] [test.jira.JiraLoginTest.words(JiraLoginTest.java:33)] start read environment: jira
+[2020-04-26 11:24:56] [INFO] [test.jira.JiraLoginTest.loginTest(JiraLoginTest.java:47)] start login
+[2020-04-26 11:25:08] [INFO] [object.jira.JiraLoginObject.setLogin(JiraLoginObject.java:32)] 进入登录页面开始登陆
+[2020-04-26 11:25:23] [INFO] [object.jira.TodoScreenShootObject.todoScreenShoot(TodoScreenShootObject.java:68)] 蔡晨无代办任务
+[2020-04-26 11:25:29] [INFO] [object.jira.TodoScreenShootObject.todoScreenShoot(TodoScreenShootObject.java:73)] 高群的数量为：7

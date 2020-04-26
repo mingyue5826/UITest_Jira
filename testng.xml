@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <!--<listener class-name="arrow.PowerEmailableReporter" />-->
+        <listener class-name="arrow.TestResultListener"></listener>
+        <listener class-name="arrow.RetryListener"></listener>
+        <listener class-name="arrow.ExtentReporterNGListener"></listener>
+        <!--
+        <listener class-name="org.uncommons.reportng.HTMLReporter" >
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" > -->
+    </listeners>
+    <test verbose="2" preserve-order="true" name="E:/workspace/uitest">
+        <classes>
+            <!--<class name="test.Initial"/>-->
+            <!--<class name="test.LoginTest"/>-->
+            <class name="test.jira.JiraLoginTest"/>
+            <class name="test.jira.TodoScreenShootTest"/>
+
+            <!--<class name="test.jira.JiraDoneTest"/>-->
+
+
+
+
+        </classes>
+    </test>
+</suite>
